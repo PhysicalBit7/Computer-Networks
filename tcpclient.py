@@ -101,7 +101,6 @@ try:
                             print '_____________________'
                             break
                         fileToWrite.write(data)
-                    fileToWrite.close()
         else:
             break
 
