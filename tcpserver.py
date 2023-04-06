@@ -73,7 +73,6 @@ while True:
                     with open(dataFile,"r") as fileToTransfer:
                         for line in fileToTransfer:
                             connection.send(line)
-                        fileToTransfer.close()
                     print 'Completed, sending EOF'
                     print '_____________________'
                     time.sleep(0.2) # Only used to force a new tcp segment in order to correctly read eof by client, want to make better
