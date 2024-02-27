@@ -10,6 +10,7 @@
 # Name: Tanner Patrom
 #Student ID: 50406980
 # How to compile: python2.7 tcpclient.py <IP address> <Port number>
+# Need to revisit and make better
 ###############
 
 import socket
